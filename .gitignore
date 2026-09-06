@@ -1,0 +1,236 @@
+# ============================================
+# Исключения для Windows
+# ============================================
+
+# Файлы и папки Thumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Файлы Desktop.ini (настройки папок)
+Desktop.ini
+
+# Файлы истории и ярлыков
+$RECYCLE.BIN/
+*.lnk
+
+# Временные файлы Office
+*.tmp
+*.temp
+~$*
+
+# Временные файлы Windows
+*.cab
+*.msi
+*.log
+
+# ============================================
+# Исключения для редакторов кода
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+.vscode-test/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.sublime-settings
+
+# Notepad++
+*.bak
+
+# ============================================
+# Исключения для систем контроля версий
+# ============================================
+
+# Файлы Git
+*.orig
+*.merge
+*.patch
+
+# ============================================
+# Исключения для языков программирования
+# ============================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+ENV/
+build/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+MANIFEST
+
+# Node.js / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env
+.env.local
+.env.*.local
+*.log
+dist/
+build/
+out/
+coverage/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
+target/
+out/
+
+# C / C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+# ============================================
+# Исключения для веб-разработки
+# ============================================
+
+# Файлы сборки
+/dist/
+/build/
+/.next/
+/.nuxt/
+/.cache/
+/out/
+
+# Зависимости
+npm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# Исключения для операционной системы
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.fseventsd
+*.swp
+*.swo
+
+# Linux
+.directory
+*.pid
+*.socket
+*.pid.lock
+*.bak
+*.old
+*.temp
+
+# ============================================
+# Общие исключения
+# ============================================
+
+# Файлы с секретами и настройками
+.env
+.env.*.local
+*.pem
+*.key
+*.crt
+*.p12
+
+# Архивы и медиафайлы (если не нужны в репозитории)
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar.bz2
+*.tgz
+*.iso
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.flac
+
+# Документы (если не нужны)
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.odt
+
+# ============================================
+# Исключения для учебных проектов
+# ============================================
+
+# Временные файлы лабораторных работ
+temp/
+tmp/
+*.tmp
+*.bak
+
+# Папка с изображениями (если много фото)
+/images/
+/uploads/
+
+# Тестовые файлы
+test-*.html
+test-*.css
+test-*.jsyarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+/.pnp/
+.pnp.js
+.pnp.loader.mjs
+
+# Файлы ошибок и логи
+*.log
+*.egg-info/
+.installed.cfg
+*.egg
+eggs/
+.eggs/
+lib/
+develop-eggs/
+dist/
+downloads/
+*.so
+.Python
+venv/
+
