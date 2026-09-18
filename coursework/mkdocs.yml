@@ -1,0 +1,52 @@
+site_name: КСК "Аллюр"
+site_description: Страница организации Конно-спортивный клуб "Аллюр" в г. Ангарск
+site_author: Попинова Екатерина Дмитриевна
+site_url: https://ketrinnnnnnn.github.io/ksk-allyur/
+
+theme:
+  name: material
+  logo: images/logo.png
+  language: ru
+  palette:
+    - scheme: default
+      primary: brown
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на тёмную тему
+    - scheme: slate
+      primary: brown
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на светлую тему
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+nav:
+  - Главная: index.md
+  - О клубе: about.md
+  - Услуги: services.md
+  - Наши лошади: horses.md
+  - Контакты: contacts.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
+extra:
+  social:
+    - icon: fontawesome/brands/vk
+      link: https://vk.com/ksk_allyur
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/ksk_allyur
