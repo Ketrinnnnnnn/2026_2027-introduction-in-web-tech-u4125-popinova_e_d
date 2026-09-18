@@ -16,22 +16,30 @@ Date of create: 18.09.2026
 
 Date of finished: XX.09.2026
 
-**Отчёт по курсовой работе **
-«Создание сайта с использованием MkDocs»
 
-**Цель работы**
+## Отчёт по курсовой работе
+**Название курсовой работы:** "Создание сайта с использованием MkDocs"
+
+**Цель работы**:
 Создать сайт организации с использованием MkDocs и языка разметки Markdown.
 
-**Ход работы**
+
+**Ход работы**:
+
 **1. Установка**
+
 python -m pip install mkdocs mkdocs-material
 
 **2. Создание проекта**
+
 mkdir my-personal-site
+
 cd my-personal-site
+
 python -m mkdocs new .
 
 **3. Настройка mkdocs.yml**
+
 site_name: КСК "Аллюр"
 
 site_description: Страница организации
@@ -47,12 +55,17 @@ Features: navigation.tabs, navigation.sections, navigation.top, search.highlight
 Соцсети в футере: VK, Telegram
 
 **4. Созданные страницы**
-Страница	Файл
+
 Главная	index.md
+
 О клубе	about.md
+
 Услуги	services.md
+
 Наши лошади	horses.md
+
 Контакты	contacts.md
+
 Элементы Markdown: заголовки, списки, таблицы, ссылки, изображения, эмодзи.
 
 **5. Изображения**
@@ -60,11 +73,12 @@ Features: navigation.tabs, navigation.sections, navigation.top, search.highlight
 
 **6. Тестирование**
 python -m mkdocs serve
+
 Сайт: http://127.0.0.1:8000/ksk-allyur/
 
 Проверено: все страницы, навигация, поиск, переключение тем
 
-**Выводы**
+**Выводы**:
 Освоен MkDocs — инструмент для создания статических сайтов из Markdown. Настроена тема Material, создан многостраничный сайт с навигацией, поиском и адаптивным дизайном. Сайт опубликован на GitHub Pages.
 
 ## Скриншоты
